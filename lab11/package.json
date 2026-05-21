@@ -1,0 +1,14 @@
+{
+  "name": "lab11-webcomponents",
+  "description": "Lab 11 - WebComponents con Shadow DOM, atributos, parts y eventos",
+  "type": "module",
+  "author": "Alonso",
+  "scripts": {
+    "dev": "servor src/ index.html 1234 --reload",
+    "deploy": "gh-pages -d src"
+  },
+  "devDependencies": {
+    "gh-pages": "6.3.0",
+    "servor": "4.0.2"
+  }
+}

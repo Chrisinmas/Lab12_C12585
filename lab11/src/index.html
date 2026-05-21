@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab 11 - WebComponents</title>
+  <link rel="stylesheet" href="css/global.css" />
+  <script type="module" src="components/WarningBadge.js"></script>
+  <script type="module" src="components/WeatherTime.js"></script>
+  <script type="module" src="components/UserCard.js"></script>
+  <script type="module" src="components/UserDashboard.js"></script>
+</head>
+<body>
+  <user-dashboard>
+    <user-card name="Alonso" role="Profesor" avatar="https://api.dicebear.com/9.x/thumbs/svg?seed=Alonso"></user-card>
+    <weather-time location="liberia+guanacaste"></weather-time>
+    <warning-badge pulsing>Sesión por expirar</warning-badge>
+  </user-dashboard>
+</body>
+</html>
