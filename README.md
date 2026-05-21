@@ -25,7 +25,7 @@ pnpm install
 pnpm run dev
 ```
 
-Abre [http://localhost:1234](http://localhost:1234)
+Abrir [http://localhost:1234](http://localhost:1234)
 
 ## Deploy
 
