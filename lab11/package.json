@@ -5,10 +5,14 @@
   "author": "Alonso",
   "scripts": {
     "dev": "servor src/ index.html 1234 --reload",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d src",
+    "test": "vitest"
   },
   "devDependencies": {
     "gh-pages": "6.3.0",
-    "servor": "4.0.2"
+    "happy-dom": "20.9.0",
+    "servor": "4.0.2",
+    "vite": "8.0.14",
+    "vitest": "4.1.7"
   }
 }

@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.32.1",
   "devDependencies": {
-    "servor": "^4.0.2"
+    "happy-dom": "^20.9.0",
+    "jsdom": "^29.1.1",
+    "servor": "^4.0.2",
+    "vite": "^8.0.14",
+    "vitest": "^4.1.7"
+  },
+  "test": {
+    "environment": "jsdom"
   }
 }
